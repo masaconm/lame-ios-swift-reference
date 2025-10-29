@@ -1,0 +1,8 @@
+# build artifacts
+Frameworks/
+lame-3.100/build/
+**/*.a
+**/*.dylib
+**/*.xcframework
+DerivedData/
+.DS_Store
