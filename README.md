@@ -65,9 +65,7 @@ After running the script, `Frameworks/Lame.xcframework` will be generated.
 
 ---
 
-## 🔧 Detailed Steps / 詳細手順
-
-# 🧱 Build & Reproduction — Full Steps / 生成手順
+## 🧱 Build & Reproduction — Full Steps / 生成手順
 
 > This section shows **only the steps to generate the XCFramework**, from clone to output verification.  
 > 以下は **XCFramework を生成するための手順のみ** をまとめたものです（クローン→生成→確認）。
@@ -99,8 +97,8 @@ If you want to inspect/apply the exact header changes:
 # tar xf lame-3.100.tar.gz && cd lame-3.100
 # patch -p1 < /path/to/YourRepo/PATCHES/0001-swift-header-fixes.patch
 ```
-If you are using the pre-modified lame-3.100/ included in this repository, **you can skip this step**.
-※ 本リポジトリの改修済み lame-3.100/ を使用する場合は **この手順は不要**。 
+- If you are using the pre-modified lame-3.100/ included in this repository, **you can skip this step**.
+- ※ 本リポジトリの改修済み lame-3.100/ を使用する場合は **この手順は不要**。 
 ---
 
 ## 3) Place your modified LAME source / 改修済みソースの配置
@@ -272,5 +270,43 @@ ls -1 Frameworks/Lame.xcframework/ios-arm64/Headers
 
 ## 🏷️ Credits / クレジット
 
-- Upstream LAME project © 1998–2025 [LAME Developers](https://lame.sourceforge.io/)  
-- Swift interoperability adaptation © 2025 [masaconm](https://github.com/masaconm)
+Upstream LAME project © 1998–2017 LAME Developers  
+Swift interoperability adaptation © 2025 masaconm
+
+---
+
+### English
+
+This project is based on the open-source **LAME MP3 Encoder**,  
+originally developed and maintained by the **LAME Developers** from 1998 to 2017.  
+The original source code is distributed under the **GNU Lesser General Public License v2.1 (LGPL 2.1)**  
+and can be found at the official repository below:
+
+➡️ https://github.com/lameproject/lame  
+➡️ https://lame.sourceforge.io/
+
+We sincerely thank the LAME Developers and the open-source community  
+for their long-term contribution to the MP3 encoding ecosystem.
+
+---
+
+### 日本語
+
+このプロジェクトは、オープンソースの **LAME MP3 エンコーダ** に基づいています。  
+LAME は **LAME Developers** により 1998 年から 2017 年にかけて開発・保守され、  
+オリジナルのソースコードは **GNU LGPL 2.1** ライセンスのもとで配布されています。  
+公式リポジトリは以下から参照できます。
+
+➡️ https://github.com/lameproject/lame  
+➡️ https://lame.sourceforge.io/
+
+MP3 エンコーディング技術とオープンソースコミュニティへの  
+長年にわたる貢献に対し、**LAME 開発者の皆様に深く感謝**いたします。
+
+---
+
+### Notes / 補足
+
+- “1998–2017” reflects the active development period of the official LAME releases (latest: v3.100, October 2017).  
+- The current repository is an independent Swift/iOS adaptation, and is **not affiliated with or endorsed by** the original LAME project.
+
