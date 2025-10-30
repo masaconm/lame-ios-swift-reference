@@ -57,9 +57,11 @@ After running the script, `Frameworks/Lame.xcframework` will be generated.
 
 スクリプト実行後、`Frameworks/Lame.xcframework` が生成されます。
 
-> 📘 Why no prebuilt binary? / なぜビルド済みバイナリを含まないのか  
+> 📘 Why no prebuilt binary? / なぜビルド済みバイナリを含まないのか
+> 
 > To comply with LGPL 2.1 and ensure transparency, this project does **not include prebuilt binaries**.  
-> Instead, users can **reproduce the exact build** themselves using the included script.  
+> Instead, users can **reproduce the exact build** themselves using the included script.
+> 
 > LGPL 2.1 のライセンスに従い、透明性を保つため、**ビルド済みバイナリは同梱していません**。  
 > 付属のスクリプトを使えば、利用者自身が同一の成果物を再現できます。
 
