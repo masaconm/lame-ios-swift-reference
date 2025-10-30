@@ -40,6 +40,25 @@ LAME 3.100 を **XCFramework** としてビルドし、Swiftから利用でき�
 
 ---
 
+## 📱 Tested Environment / 動作確認環境
+
+**English**  
+This project has been **tested and verified** under the following environments:  
+- **iPadOS 26 (Simulator & Device)**  
+- **iOS 18.3 or later (Simulator & Device)**  
+
+Both the static XCFramework build process and Swift integration  
+have been confirmed to work as expected on these environments.
+
+**日本語**  
+以下の環境で **実機およびシミュレーターによる動作確認** を行っています：  
+- **iPadOS 26（実機およびシミュレーター）**  
+- **iOS 18.3 以上（実機およびシミュレーター）**  
+
+XCFramework のビルドおよび Swift からの呼び出し処理が、上記環境にて正常に動作することを確認しています。
+
+---
+
 ## 🚀 Quick Start / クイックスタート
 
 **English**  
@@ -100,8 +119,9 @@ If you want to inspect/apply the exact header changes:
 # tar xf lame-3.100.tar.gz && cd lame-3.100
 # patch -p1 < /path/to/YourRepo/PATCHES/0001-swift-header-fixes.patch
 ```
-- If you are using the pre-modified lame-3.100/ included in this repository, **you can skip this step**.
-- ※ 本リポジトリの改修済み lame-3.100/ を使用する場合は **この手順は不要**。 
+- If you are using the pre-modified `lame-3.100/` included in this repository, **you can skip this step**.  
+- ※ 本リポジトリの改修済み `lame-3.100/` を使用する場合は **この手順は不要**。 
+
 ---
 
 ## 3) Place your modified LAME source / 改修済みソースの配置
@@ -301,7 +321,20 @@ LAME は **LAME Developers** により 1998 年から 2017 年にかけて開発
 ➡️ https://github.com/lameproject/lame  
 ➡️ https://lame.sourceforge.io/
 
-MP3 エンコーディング技術とオープンソースコミュニティへの  長年にわたる貢献に対し、**LAME 開発者の皆様に深く感謝**いたします！
+MP3 エンコーディング技術とオープンソースコミュニティへの  
+長年にわたる貢献に対し、**LAME 開発者の皆様に深く感謝**いたします！
 
 ---
+
+## 🤝 Feedback & Contributions / ご意見・コントリビューション
+
+**English**  
+If you find any issues, have improvement suggestions, or wish to contribute,  
+feel free to open an **Issue** or submit a **Pull Request** on GitHub.  
+Your feedback and contributions are always welcome!
+
+**日本語**  
+もし不具合の報告や改善提案がありましたら、  
+お気軽に **Issue** の作成や **Pull Request** をお送りください。  
+ご意見・ご協力を心よりお待ちしています！
 
