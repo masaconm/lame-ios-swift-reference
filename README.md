@@ -44,6 +44,7 @@ LAME 3.100 を **XCFramework** としてビルドし、Swiftから利用でき�
 
 **English**  
 Follow these steps to clone the repository and build the XCFramework:  
+
 **日本語**  
 以下の手順でリポジトリをクローンし、XCFrameworkをビルドしてください。
 
@@ -277,7 +278,7 @@ Swift interoperability adaptation © 2025 masaconm
 
 ---
 
-### English
+**English**  
 
 This project is based on the open-source **LAME MP3 Encoder**,  
 originally developed and maintained by the **LAME Developers** from 1998 to 2017.  
@@ -290,9 +291,7 @@ and can be found at the official repository below:
 We sincerely thank the LAME Developers and the open-source community  
 for their long-term contribution to the MP3 encoding ecosystem.
 
----
-
-### 日本語
+**日本語**  
 
 このプロジェクトは、オープンソースの **LAME MP3 エンコーダ** に基づいています。  
 LAME は **LAME Developers** により 1998 年から 2017 年にかけて開発・保守され、  
@@ -302,13 +301,7 @@ LAME は **LAME Developers** により 1998 年から 2017 年にかけて開発
 ➡️ https://github.com/lameproject/lame  
 ➡️ https://lame.sourceforge.io/
 
-MP3 エンコーディング技術とオープンソースコミュニティへの  
-長年にわたる貢献に対し、**LAME 開発者の皆様に深く感謝**いたします。
+MP3 エンコーディング技術とオープンソースコミュニティへの  長年にわたる貢献に対し、**LAME 開発者の皆様に深く感謝**いたします！
 
 ---
-
-### Notes / 補足
-
-- “1998–2017” reflects the active development period of the official LAME releases (latest: v3.100, October 2017).  
-- The current repository is an independent Swift/iOS adaptation, and is **not affiliated with or endorsed by** the original LAME project.
 
