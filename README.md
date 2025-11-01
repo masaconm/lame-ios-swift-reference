@@ -334,7 +334,7 @@ feel free to open an **Issue** or submit a **Pull Request** on GitHub.
 Your feedback and contributions are always welcome!
 
 **日本語**  
-もし不具合の報告や改善提案がありましたら、  
+もし不具合の改善提案がありましたら、  
 お気軽に **Issue** の作成や **Pull Request** をお送りください。  
 ご意見・ご協力を心よりお待ちしています！
 
